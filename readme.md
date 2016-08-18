@@ -24,3 +24,11 @@
 **规则地址：**<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_adb.conf>
 
 ![扫码下载](https://cloud.githubusercontent.com/assets/12909077/17640759/d7347da8-6139-11e6-8cfb-bd8d1800343c.png)
+
+## Related
+
+[**gongjianhui/AppleDNS**](https://github.com/gongjianhui/AppleDNS)
+
+Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 DNS 最优解析结果，明显加快访问速度。
+
+电脑需支持 Python，按照 Readme 运行后，将生成的 hosts 粘贴到 `Shadowrocket->Settings->DNS->Hosts` 即可。
