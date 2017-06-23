@@ -1,0 +1,22 @@
+
+#
+# 白名单模式，对不确定的网站尽可能地走代理
+#
+# 直连：top500 网站中可直连的网站、中国网站
+# 代理：其余的所有国外网站
+# 不包含广告过滤
+#
+
+
+# top500 direct
+{{top500_direct}}
+
+
+# manual direct
+{{manual_direct}}
+
+
+DOMAIN-SUFFIX,cn,DIRECT
+
+GEOIP,CN,DIRECT
+FINAL,proxy
