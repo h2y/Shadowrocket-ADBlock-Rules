@@ -42,13 +42,9 @@
 脚本，运行所需时间较长。自动爬取生成 `top500_*.list` 文件。
 
 
-**resultant/ad_domains.list**
+**resultant/ad.list**
 
-域名列表，由 `ad.py` 自动生成。包括所有需要屏蔽的广告域名。
-
-**resultant/ad_ips.list**
-
-IP 列表，由 `ad.py` 自动生成。包括所有需要屏蔽的广告服务器的 IP。
+广告列表，由 `ad.py` 自动生成。包括所有需要屏蔽的广告服务器的域名和 IP。
 
 **ad.py**
 

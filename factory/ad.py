@@ -7,8 +7,14 @@ import re
 
 
 rules_url = [
-    'https://easylist-downloads.adblockplus.org/easylistchina.txt',  # EasyList China
-    'https://github.com/cjx82630/cjxlist/raw/master/cjxlist.txt'     # EasyList Lite
+    # EasyList China
+    #'https://easylist-downloads.adblockplus.org/easylistchina.txt',
+    # EasyList Lite
+    #'https://github.com/cjx82630/cjxlist/raw/master/cjxlist.txt',
+    # EasyList + China
+    'https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt',
+    # 乘风 广告过滤规则
+    'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt'
 ]
 
 # contain both domains and ips
@@ -36,14 +42,31 @@ for rule_url in rules_url:
     rule = r.text
 
     # parse html
-    reg_ret = re.findall(r'\|\|([\w\.]+)\^?\n', rule)
-    for ret in reg_ret:
-        domains.append(ret)
+    rule = rule.split('\n')
+    for row in rule:
+        if not row.startswith('||') and not row.startswith('|http'):
+            continue
+
+        # del prefix
+        row = re.sub(r'^\|(\||https?:\/\/)', '', row)
+        # del suffix
+        row = row.rstrip('/^')
+
+        if re.search(r'[\$\^:\*]', row):
+            continue
+        if row.count('/'):
+            continue
+
+        if not re.match(r'\w+\.\w+', row):
+            continue
+
+        # match
+        domains.append(row)
 
     print('done.')
 
 
-# write in files
+# write into files
 
 domains.sort()
 

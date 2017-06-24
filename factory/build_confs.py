@@ -17,7 +17,6 @@ confs_names = [
 def getRulesStringFromFile(path, kind):
     file = open(path, 'r', encoding='utf-8')
     contents = file.readlines()
-    file.close()
     ret = ''
 
     for content in contents:
