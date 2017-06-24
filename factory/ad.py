@@ -72,7 +72,7 @@ domains.sort()
 
 file_ad = open('resultant/ad.list', 'w', encoding='utf-8')
 
-file_ad.write('# ad rules refresh time: ' + time.strftime("%Y-%m-%d %H:%M:%S") + '\n')
+file_ad.write('# adblock rules refresh time: ' + time.strftime("%Y-%m-%d %H:%M:%S") + '\n')
 
 last = ''
 for item in domains:
