@@ -7,9 +7,7 @@ import time
 # confs names in template/ and ../
 # except sr_head and sr_foot
 confs_names = [
-    'sr_top500_banlist',
     'sr_top500_banlist_ad',
-    'sr_top500_whitelist',
     'sr_top500_whitelist_ad'
 ]
 

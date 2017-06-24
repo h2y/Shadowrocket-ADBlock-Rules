@@ -117,9 +117,9 @@ time.sleep(5)
 file_proxy = open('resultant/top500_proxy.list', 'w', encoding='utf-8')
 file_direct = open('resultant/top500_direct.list', 'w', encoding='utf-8')
 
-now_time = '# list refresh time: ' + time.strftime("%Y-%m-%d %H:%M:%S")
-file_proxy.write(now_time + '\n')
-file_direct.write(now_time + '\n')
+now_time = time.strftime("%Y-%m-%d %H:%M:%S")
+file_proxy.write('# top500 proxy list update time: ' + now_time + '\n')
+file_direct.write('# top500 direct list update time: ' + now_time + '\n')
 
 # Start Thread
 UrlScaner().start()

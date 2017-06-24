@@ -8,19 +8,12 @@
 #
 
 
-# top500 proxy
 {{top500_proxy}}
 
-
-# manual proxy
 {{manual_proxy}}
 
-
-# ad block
 {{ad}}
 
-
-# manual block
 {{manual_reject}}
 
 

@@ -8,19 +8,12 @@
 #
 
 
-# top500 direct
 {{top500_direct}}
 
-
-# manual direct
 {{manual_direct}}
 
-
-# ad block
 {{ad}}
 
-
-# manual block
 {{manual_reject}}
 
 

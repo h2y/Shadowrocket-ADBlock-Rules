@@ -1,0 +1,4 @@
+# 手工定义的 Reject 列表
+
+#淘宝联盟
+atanx.alicdn.com
