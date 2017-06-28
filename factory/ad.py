@@ -50,14 +50,14 @@ for rule_url in rules_url:
         # del prefix
         row = re.sub(r'^\|(\||https?:\/\/)', '', row)
         # del suffix
-        row = row.rstrip('/^')
+        row = row.rstrip('/^ ')
 
         if re.search(r'[\$\^:\*]', row):
             continue
         if row.count('/'):
             continue
 
-        if not re.match(r'\w+\.\w+', row):
+        if not re.match(r'\w+(\.\w+)+$', row):
             continue
 
         # match
