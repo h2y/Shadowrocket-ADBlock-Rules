@@ -16,3 +16,13 @@
 #for http://www.bbc.com/zhongwen/simp
 #28
 bbc.com
+
+#instagram
+cdninstagram.com
+
+gist.github.com
+
+#开车
+#20
+t66y.com
+91porn.com
