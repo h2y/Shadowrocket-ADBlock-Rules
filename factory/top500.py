@@ -15,6 +15,9 @@ urls_scan_over = False
 
 domains = []
 
+domains_proxy = []
+domains_direct = []
+
 
 # thread to scan pages in urls
 class UrlScaner(threading.Thread):
@@ -31,17 +34,18 @@ class UrlScaner(threading.Thread):
             self.praseHTML(html)
 
             done_num = done_num + 25
-            print('top500 已获取：%d/500'%done_num)
+            print('top500 List Got: %d/500'%done_num)
 
             time.sleep(1)
 
         urls_scan_over = True
-        print('top500 网站获取完毕。')
+        print('top500 List Fetched Over.')
 
 
     def fetchHTML(self, url):
         success = False
         try_times = 0
+        r = None
         while try_times < 5 and not success:
             r = requests.get(url)
             if r.status_code != 200:
@@ -103,17 +107,30 @@ class DomainScaner(threading.Thread):
                     is_proxy = True
 
             if is_proxy:
-                file_proxy.write(domain + '\n')
+                domains_proxy.append(domain)
             else:
-                file_direct.write(domain + '\n')
+                domains_direct.append(domain)
 
-            print('[剩余域名数量：%d]\tProxy %s：%s' % (len(domains), is_proxy, domain) )
+            print('[Doamins Remain: %d]\tProxy %s：%s' % (len(domains), is_proxy, domain) )
+
+        global scaner_thread_num
+        scaner_thread_num -= 1
 
 
-print('5s later to start refresh top500 lists...')
-time.sleep(5)
+print('top500 Script Starting...\n\n')
 
-# output files
+# Start Thread
+UrlScaner().start()
+scaner_thread_num = 0
+for i in range(5):
+    DomainScaner().start()
+    scaner_thread_num += 1
+
+# wait thread done
+while scaner_thread_num:
+    pass
+
+# write files
 file_proxy = open('resultant/top500_proxy.list', 'w', encoding='utf-8')
 file_direct = open('resultant/top500_direct.list', 'w', encoding='utf-8')
 
@@ -121,7 +138,11 @@ now_time = time.strftime("%Y-%m-%d %H:%M:%S")
 file_proxy.write('# top500 proxy list update time: ' + now_time + '\n')
 file_direct.write('# top500 direct list update time: ' + now_time + '\n')
 
-# Start Thread
-UrlScaner().start()
-for i in range(5):
-    DomainScaner().start()
+domains_direct.sort()
+domains_proxy.sort()
+
+for domain in domains_direct:
+    file_direct.write(domain+'\n')
+for domain in domains_proxy:
+    file_proxy.write(domain+'\n')
+
