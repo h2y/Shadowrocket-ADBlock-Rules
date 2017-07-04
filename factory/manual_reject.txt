@@ -3,17 +3,6 @@
 #淘宝联盟
 atanx.alicdn.com
 
-#优酷
-actives.youku.com
-ad.api.3g.youku.com
-c.yes.youku.com
-lstat.youku.com
-lvip.youku.com
-p.l.youku.com
-r.l.youku.com
-stat.youku.com
-static.lstat.youku.com
-
 #爱奇艺
 rcd.iqiyi.com
 ad.m.iqiyi.com
