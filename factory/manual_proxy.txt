@@ -13,8 +13,7 @@
 149.154.168.0/22
 149.154.172.0/22
 
-#for http://www.bbc.com/zhongwen/simp
-#28
+#28 for http://www.bbc.com/zhongwen/simp
 bbc.com
 
 #instagram
@@ -22,7 +21,9 @@ cdninstagram.com
 
 gist.github.com
 
-#开车
-#20
+# 首页直连，但中文的维基百科必须翻墙
+wikipedia.org
+
+#20 开车
 t66y.com
 91porn.com
