@@ -19,6 +19,9 @@ bbc.com
 #instagram
 cdninstagram.com
 
+#disqus
+disquscdn.com
+
 gist.github.com
 
 # 首页直连，但中文的维基百科必须翻墙
