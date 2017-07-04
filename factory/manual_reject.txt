@@ -3,13 +3,6 @@
 #淘宝联盟
 atanx.alicdn.com
 
-#爱奇艺
-rcd.iqiyi.com
-ad.m.iqiyi.com
-cupid.iqiyi.com
-ifacelog.iqiyi.com
-rcd.iqiyi.com
-
 #贴吧
 res.limei.com
 res.cocounion.com
@@ -132,13 +125,3 @@ wbclick.mobile.sina.cn
 wbpctips.mobile.sina.cn
 ota.pay.mobile.sina.cn
 pay.mobile.sina.cn
-
-#网易
-fa.163.com
-gb.corp.163.com
-g1.163.com
-oimagea2.ydstatic.com
-prom.gome.com.cn
-rlogs.youdao.com
-static.flv.uuzuonline.com
-wanproxy.127.net
