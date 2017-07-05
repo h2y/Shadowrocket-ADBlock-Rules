@@ -1,2 +1,5 @@
 
+[URL Rewrite]
+^http://(www.)?google.cn https://www.google.com header
+
 # By Moshel @ https://hzy.pw/
