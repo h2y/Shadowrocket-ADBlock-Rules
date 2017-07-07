@@ -25,7 +25,6 @@ t11.baidu.com
 t12.baidu.com
 
 #广告联盟
-init.icloud-analysis.com
 zhihu-analytics.zhihu.com
 log.cmbchina.com
 api.segment.io
