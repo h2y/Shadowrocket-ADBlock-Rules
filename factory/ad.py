@@ -9,8 +9,6 @@ import re
 rules_url = [
     # EasyList China
     #'https://easylist-downloads.adblockplus.org/easylistchina.txt',
-    # EasyList Lite
-    #'https://github.com/cjx82630/cjxlist/raw/master/cjxlist.txt',
     # EasyList + China
     'https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt',
     # 乘风 广告过滤规则
@@ -27,6 +25,7 @@ for rule_url in rules_url:
     # get rule text
     success = False
     try_times = 0
+    r = None
     while try_times < 5 and not success:
         r = requests.get(rule_url)
         if r.status_code != 200:
