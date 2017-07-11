@@ -3,17 +3,12 @@
 #淘宝联盟
 atanx.alicdn.com
 
-#贴吧
-res.limei.com
-res.cocounion.com
-
 #百度
 eclick.baidu.com
 entry.baidu.com
 hmma.baidu.com
 mobads-logs.baidu.com
 mobads.baidu.com
-msg.71.am
 mtj.baidu.com
 nsclick.baidu.com
 static.tieba.baidu.com
@@ -25,6 +20,7 @@ t11.baidu.com
 t12.baidu.com
 
 #广告联盟
+doubleclick.net
 zhihu-analytics.zhihu.com
 log.cmbchina.com
 api.segment.io

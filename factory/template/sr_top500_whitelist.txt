@@ -7,12 +7,12 @@
 #
 
 
-{{top500_direct}}
-DOMAIN-SUFFIX,cn,DIRECT
-
 {{manual_proxy}}
 {{manual_direct}}
 
+{{top500_direct}}
+
+DOMAIN-SUFFIX,cn,DIRECT
 
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT

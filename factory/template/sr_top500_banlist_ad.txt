@@ -7,15 +7,14 @@
 #
 
 
-{{ad}}
 {{manual_reject}}
-
-{{top500_proxy}}
-DOMAIN-KEYWORD,google,Proxy
-
-{{manual_direct}}
 {{manual_proxy}}
+{{manual_direct}}
 
+{{ad}}
+{{top500_proxy}}
+
+DOMAIN-KEYWORD,google,Proxy
 
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
