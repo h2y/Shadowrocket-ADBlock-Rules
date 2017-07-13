@@ -1,8 +1,5 @@
 # 手工定义的 Reject 列表
 
-#淘宝联盟
-atanx.alicdn.com
-
 #百度
 eclick.baidu.com
 entry.baidu.com
@@ -120,3 +117,45 @@ wbclick.mobile.sina.cn
 wbpctips.mobile.sina.cn
 ota.pay.mobile.sina.cn
 pay.mobile.sina.cn
+
+# 有道
+dsp-impr2.youdao.com
+
+# 爱奇艺 PPS
+ad.m.iqiyi.com
+afp.iqiyi.com
+api.cupid.iqiyi.com
+c.uaa.iqiyi.com
+cloudpush.iqiyi.com
+cm.passport.iqiyi.com
+emoticon.sns.iqiyi.com
+gamecenter.iqiyi.com
+hotchat-im.iqiyi.com
+ifacelog.iqiyi.com
+mbdlog.iqiyi.com
+meta.video.qiyi.com
+paopao.iqiyi.com
+policy.video.iqiyi.com
+rcd.iqiyi.com
+cmts.iqiyi.com
+data.video.qiyi.com
+msg.71.am
+msga.cupid.iqiyi.com
+101.227.14.80/29
+101.227.200.0/22
+112.13.64.0/22
+112.253.36.0/24
+117.139.16.0/22
+117.139.18.141/22
+119.188.13.32/29
+119.188.172.192/28
+119.188.173.0/27
+119.188.43.61/32
+123.125.116.0/22
+123.125.117.0/22
+123.130.122.128/28
+183.221.244.0/22
+183.221.247.189/22
+27.221.89.128/28
+60.211.171.128/29
+60.211.211.1/32
