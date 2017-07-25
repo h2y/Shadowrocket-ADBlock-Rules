@@ -9,7 +9,8 @@ import time
 confs_names = [
     'sr_top500_banlist_ad',
     'sr_top500_whitelist_ad',
-    'sr_top500_whitelist'
+    'sr_top500_whitelist',
+    'sr_adb'
 ]
 
 
