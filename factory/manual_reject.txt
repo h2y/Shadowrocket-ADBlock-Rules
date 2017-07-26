@@ -16,6 +16,9 @@ t10.baidu.com
 t11.baidu.com
 t12.baidu.com
 
+#站长统计
+google-analytics.com
+
 #广告联盟
 doubleclick.net
 zhihu-analytics.zhihu.com
@@ -118,8 +121,9 @@ wbpctips.mobile.sina.cn
 ota.pay.mobile.sina.cn
 pay.mobile.sina.cn
 
-# 有道
-dsp-impr2.youdao.com
+# 有道词典
+gorgon.youdao.com
+impservice.youdao.com
 
 # 爱奇艺 PPS
 ad.m.iqiyi.com
