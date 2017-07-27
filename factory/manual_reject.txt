@@ -36,7 +36,6 @@ cmcore.com
 coremetrics.com
 irs01.com
 madmini.com
-mmstat.com
 optimizelyapis.com
 sitemeter.com
 wrating.com
