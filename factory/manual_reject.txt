@@ -1,6 +1,6 @@
 # 手工定义的 Reject 列表
 
-#百度
+#百度（可能有多余项）
 eclick.baidu.com
 entry.baidu.com
 hmma.baidu.com
@@ -19,7 +19,7 @@ t12.baidu.com
 #站长统计
 google-analytics.com
 
-#广告联盟
+#广告联盟（可能有多余项）
 doubleclick.net
 zhihu-analytics.zhihu.com
 log.cmbchina.com
@@ -90,7 +90,7 @@ youmi.net
 zhiziyun.com
 segment.com
 
-#新浪
+#新浪（可能有多余项）
 ad.sina.com.cn
 adm.leju.sina.com.cn
 atm.sina.com
@@ -99,7 +99,7 @@ sax.sina.cn
 sax.sina.com.cn
 tjs.sjs.sinajs.cn
 
-#微博
+#微博（可能有多余项）
 c.biz.weibo.com
 game.weibo.com
 c.wcpt.biz.weibo.com
@@ -124,7 +124,7 @@ pay.mobile.sina.cn
 gorgon.youdao.com
 impservice.youdao.com
 
-# 爱奇艺 PPS
+# 爱奇艺 PPS（可能有多余项）
 ad.m.iqiyi.com
 afp.iqiyi.com
 api.cupid.iqiyi.com
@@ -162,3 +162,17 @@ msga.cupid.iqiyi.com
 27.221.89.128/28
 60.211.171.128/29
 60.211.211.1/32
+
+# Youtube（可能有多余项）
+ads.youtube.com
+azabu-u.ac.jp
+couchcoaster.jp
+crt.comodoca.com
+delivery.dmkt-sp.jp
+ehg-youtube.hitbox.com
+m-78.jp
+nichibenren.or.jp
+nicorette.co.kr
+ssl-youtube.2cnt.net
+youtube.112.2o7.net
+youtube.2cnt.net

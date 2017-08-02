@@ -15,6 +15,7 @@
 
 - [黑名单过滤 + 广告](#黑名单过滤--广告)
 - [白名单过滤 + 广告](#白名单过滤--广告)
+- [黑名单过滤](#黑名单过滤)
 - [白名单过滤](#白名单过滤)
 - 神-奇-分-隔-符
 - [常见问题](#常见问题)
@@ -46,6 +47,19 @@
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist_ad.conf>
 
 ![](https://user-images.githubusercontent.com/12909077/27505553-ef1b86c6-58d4-11e7-9fb1-eafbd0c5dc81.png)
+
+
+## 黑名单过滤
+
+现在很多浏览器都自带了广告过滤功能，而广告过滤的规则其实较为臃肿，如果你不需要全局地过滤 App 内置广告和视频广告，可以选择这个不带广告过滤的版本。
+
+- 代理：top500 网站中不可直连的境外网站
+- 直连：默认直连境外其余网站、中国网站
+- 不包含广告过滤
+
+规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist.conf>
+
+![](https://user-images.githubusercontent.com/12909077/28882175-0b25a244-77dd-11e7-8939-e9024f74f723.png)
 
 
 ## 白名单过滤
