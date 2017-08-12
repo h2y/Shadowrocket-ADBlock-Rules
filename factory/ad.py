@@ -69,7 +69,14 @@ for rule_url in rules_url:
 
 domains.sort()
 
-file_ad = open('resultant/ad.list', 'w', encoding='utf-8')
+file_ad = sys.stdout
+try:
+    if sys.version_info.major == 3:
+        file_ad = open('resultant/ad.list', 'w', encoding='utf-8')
+    else:
+        file_ad = open('resultant/ad.list', 'w')
+except:
+    pass
 
 file_ad.write('# adblock rules refresh time: ' + time.strftime("%Y-%m-%d %H:%M:%S") + '\n')
 
