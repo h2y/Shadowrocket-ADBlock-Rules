@@ -162,17 +162,3 @@ msga.cupid.iqiyi.com
 27.221.89.128/28
 60.211.171.128/29
 60.211.211.1/32
-
-# Youtube（可能有多余项）
-ads.youtube.com
-azabu-u.ac.jp
-couchcoaster.jp
-crt.comodoca.com
-delivery.dmkt-sp.jp
-ehg-youtube.hitbox.com
-m-78.jp
-nichibenren.or.jp
-nicorette.co.kr
-ssl-youtube.2cnt.net
-youtube.112.2o7.net
-youtube.2cnt.net
