@@ -114,9 +114,9 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 这是一个很棒的 IP 查询网站，支持同时查询你的境内境外 IP，以及谷歌 IP。
 
-[**CloudGateRules_SR**](https://github.com/CloudGateRules/Shadowrocket)
+**<https://hzy.pw/>**
 
-这同样是由开源社区维护的另一款 SR 规则，大家也可以试试。
+我是一名大学生，沉迷技术无法自拔。这是我的个人博客，欢迎来逛逛~
 
 
 ## 问题反馈
