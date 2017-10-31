@@ -16,6 +16,9 @@ t10.baidu.com
 t11.baidu.com
 t12.baidu.com
 
+# 未知广告 来自#49反馈
+stats.chinaz.com
+
 #站长统计
 google-analytics.com
 
