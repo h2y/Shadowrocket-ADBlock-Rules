@@ -30,3 +30,9 @@ wikipedia.org
 #20 开车
 t66y.com
 91porn.com
+
+#50 for whatsapp
+whatsapp.com
+whatsapp.net
+18.194.0.0/15
+34.224.0.0/12
