@@ -36,3 +36,8 @@ whatsapp.com
 whatsapp.net
 18.194.0.0/15
 34.224.0.0/12
+
+#RSS 相关
+reederapp.com
+instapaper.com
+newsblur.com
