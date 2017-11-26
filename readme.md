@@ -13,66 +13,18 @@
 
 ### 目录
 
-- [黑名单过滤 + 广告](#黑名单过滤--广告)
-- [白名单过滤 + 广告](#白名单过滤--广告)
-- [黑名单过滤](#黑名单过滤)
-- [白名单过滤](#白名单过滤)
-- 神-奇-分-隔-符
-- [常见问题](#常见问题)
-- [相关推荐](#相关推荐)
-- [问题反馈](#问题反馈)
-- [捐助](#捐助)
+规则 | 去广告 | 规定代理的网站 | 规定直连的网站 | 剩余的网站 
+--- | ------ | -------------- | ------------- | ----------
+[黑名单过滤 + 广告](#黑名单过滤--广告) | 是 | top500 网站中不可直连的网站 | 中国网站 | 直连
+[白名单过滤 + 广告](#白名单过滤--广告) | 是 | 无 | top500 网站中可直连的网站、中国网站 | 代理
+[黑名单过滤](#黑名单过滤) | 无 | top500 网站中不可直连的网站 | 中国网站 | 直连
+[白名单过滤](#白名单过滤) | 无 | 无 | top500 网站中可直连的网站、中国网站 | 代理
+[直连去广告](#直连去广告) | 是 | 无 | 无 | 直连
+[代理去广告](#代理去广告) | 是 | 无 | 无 | 代理
 
-
-## 黑名单过滤 + 广告
-
-黑名单中包含了境外网站中无法访问的那些，对不确定的网站则默认直连。
-
-- 代理：top500 网站中不可直连的境外网站
-- 直连：默认直连境外其余网站、中国网站
-- 包含广告过滤
-
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf>
-
-![](https://user-images.githubusercontent.com/12909077/27505548-db67b776-58d4-11e7-8775-ff038c8c11bf.png)
-
-## 白名单过滤 + 广告
-
-白名单中包含了境外网站中可以访问的那些，对不确定的网站则默认代理。
-
-- 直连：top500 网站中可直连的境外网站、中国网站
-- 代理：默认代理其余的所有境外网站
-- 包含广告过滤
-
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist_ad.conf>
-
-![](https://user-images.githubusercontent.com/12909077/27505553-ef1b86c6-58d4-11e7-9fb1-eafbd0c5dc81.png)
-
-
-## 黑名单过滤
-
-现在很多浏览器都自带了广告过滤功能，而广告过滤的规则其实较为臃肿，如果你不需要全局地过滤 App 内置广告和视频广告，可以选择这个不带广告过滤的版本。
-
-- 代理：top500 网站中不可直连的境外网站
-- 直连：默认直连境外其余网站、中国网站
-- 不包含广告过滤
-
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist.conf>
-
-![](https://user-images.githubusercontent.com/12909077/28882175-0b25a244-77dd-11e7-8939-e9024f74f723.png)
-
-
-## 白名单过滤
-
-现在很多浏览器都自带了广告过滤功能，而广告过滤的规则其实较为臃肿，如果你不需要全局地过滤 App 内置广告和视频广告，可以选择这个不带广告过滤的版本。
-
-- 直连：top500 网站中可直连的境外网站、中国网站
-- 代理：默认代理其余的所有境外网站
-- 不包含广告过滤
-
-规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist.conf>
-
-![](https://user-images.githubusercontent.com/12909077/27505552-ef108226-58d4-11e7-82eb-8558289d3953.png)
+- 以上所有规则，局域网内请求均直连。
+- 前两个规则是大多数人的选择。
+- 可以下载多个规则切换使用。
 
 
 ## 常见问题
@@ -137,3 +89,79 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 但是，作为一个翻墙规则，不可避免的会对网站有所遗漏，需要大家来共同完善，当发现不好用的地方时，请打开 SR 的日志功能，检查一下是哪一个被墙的域名走了直连，或者是哪一个可以直连的域名走了代理。
 
 将需要修改的信息反馈给我，大家的努力会让这个规则越来越完善！
+
+
+## 黑名单过滤 + 广告
+
+黑名单中包含了境外网站中无法访问的那些，对不确定的网站则默认直连。
+
+- 代理：top500 网站中不可直连的境外网站
+- 直连：默认直连境外其余网站、中国网站
+- 包含广告过滤
+
+规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf>
+
+![](https://user-images.githubusercontent.com/12909077/27505548-db67b776-58d4-11e7-8775-ff038c8c11bf.png)
+
+## 白名单过滤 + 广告
+
+白名单中包含了境外网站中可以访问的那些，对不确定的网站则默认代理。
+
+- 直连：top500 网站中可直连的境外网站、中国网站
+- 代理：默认代理其余的所有境外网站
+- 包含广告过滤
+
+规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist_ad.conf>
+
+![](https://user-images.githubusercontent.com/12909077/27505553-ef1b86c6-58d4-11e7-9fb1-eafbd0c5dc81.png)
+
+
+## 黑名单过滤
+
+现在很多浏览器都自带了广告过滤功能，而广告过滤的规则其实较为臃肿，如果你不需要全局地过滤 App 内置广告和视频广告，可以选择这个不带广告过滤的版本。
+
+- 代理：top500 网站中不可直连的境外网站
+- 直连：默认直连境外其余网站、中国网站
+- 不包含广告过滤
+
+规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist.conf>
+
+![](https://user-images.githubusercontent.com/12909077/28882175-0b25a244-77dd-11e7-8939-e9024f74f723.png)
+
+
+## 白名单过滤
+
+现在很多浏览器都自带了广告过滤功能，而广告过滤的规则其实较为臃肿，如果你不需要全局地过滤 App 内置广告和视频广告，可以选择这个不带广告过滤的版本。
+
+- 直连：top500 网站中可直连的境外网站、中国网站
+- 代理：默认代理其余的所有境外网站
+- 不包含广告过滤
+
+规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist.conf>
+
+![](https://user-images.githubusercontent.com/12909077/27505552-ef108226-58d4-11e7-82eb-8558289d3953.png)
+
+
+## 直连去广告
+
+如果你想用 SR 作为 iOS 全局去广告工具，这个规则会对你有所帮助。
+
+- 直连：所有请求
+- 包含广告过滤
+
+规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf>
+
+![qrcode](https://user-images.githubusercontent.com/12909077/33238511-5c08a268-d2ca-11e7-9e57-061050a88021.png)
+
+
+## 代理去广告
+
+如果你想用 SR 作为 iOS 全局去广告 + 全局翻墙工具，这个规则会对你有所帮助。
+
+- 直连：局域网请求
+- 代理：其余所有请求
+- 包含广告过滤
+
+规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_proxy_banad.conf>
+
+![qrcode 1](https://user-images.githubusercontent.com/12909077/33238510-5bd37174-d2ca-11e7-8614-e924908f0b6a.png)
