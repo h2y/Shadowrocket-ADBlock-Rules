@@ -1,4 +1,4 @@
-# adblock rules refresh time: 2018-01-11 17:25:23
+# adblock rules refresh time: 2018-01-20 10:20:26
 000dn.com
 003store.com
 00880808.com
@@ -18,6 +18,8 @@
 0756sjlm.com.cn
 0937jyg.com
 0d077ef9e74d8.cdn.sohucs.com
+0x013d.website
+0x01e7.website
 0xxd.com
 1.1010pic.com
 1.15lu.com
@@ -134,6 +136,7 @@
 2012ui.com
 2013sh.com
 20150930.cf
+2016.bkill.net
 205.209.138.102
 210189.com
 211.103.159.32
@@ -230,11 +233,13 @@
 5imoney.com
 5jcom.com.cn
 5pub.com
+5x5q.com
 5y9nfpes.52pk.com
 60.190.139.164
 61.147.184.18
 61.152.223.15
 61.174.50.211
+626uc.com
 644446.com
 64si.com
 66.zx1234.com
@@ -449,7 +454,6 @@ ad-resource.huanqiu.com
 ad.about.co.kr
 ad.accessmediaproductions.com
 ad.bitmedia.io
-ad.bjmama.net
 ad.cooks.com
 ad.crichd.in
 ad.digitimes.com.tw
@@ -536,6 +540,7 @@ adm.xmfish.com
 adm.zbinfo.net
 admaji.com
 admaster.com.cn
+admd.housefun.com.tw
 admd.yam.com
 admddc.com
 admeta.vo.llnwd.net
@@ -615,6 +620,7 @@ afp.chinanews.com
 afp.m1905.com
 afp.wasu.cn
 afpcreative.wasu.cn
+afpimages.eastday
 agenda.complex.com
 ahhuazhen.com
 ahszgog.com
@@ -660,6 +666,7 @@ anioscp.com
 ann5.net
 anreson.net
 anyysz.com
+anzhuocpm.com
 aomde.com
 aoodoo.weiphone.com
 apkdo.com
@@ -777,6 +784,7 @@ bdlncs1.familydoctor.com.cn
 bdm.911cha.com
 bdpuaw.com
 bdtongfei.cn
+bdx.playnext.cn
 beacon.sina.com.cn
 beap.gemini.yahoo.com
 bebelait.com
@@ -884,6 +892,7 @@ cc.shixunwang.net
 ccbaihehq.com
 ccbccb.cn
 cccrir.com
+cchfjz.com
 ccmdgg.com
 ccr.yxdown.com
 cctyly.com
@@ -893,9 +902,9 @@ cdn.wuyou.ca
 cdnads.com
 cdnjsp.wang
 cdnny.com
-cdntxt.com
 cdqjmc.com
 cdyqc.com
+cee1.iteye.com
 cerebral.typn.com
 cfboo.com
 cg2017.com
@@ -1068,6 +1077,7 @@ d1nmk7iw7hajjn.cloudfront.net
 d1noellhv8fksc.cloudfront.net
 d1pcttwib15k25.cloudfront.net
 d1pdpbxj733bb1.cloudfront.net
+d1qk9ujrmkucbl.cloudfront.net
 d1rguclfwp7nc8.cloudfront.net
 d1spb7fplenrp4.cloudfront.net
 d1vbm0eveofcle.cloudfront.net
@@ -1093,6 +1103,7 @@ d2bgg7rjywcwsy.cloudfront.net
 d2cxkkxhecdzsq.cloudfront.net
 d2d2lbvq8xirbs.cloudfront.net
 d2dxgm96wvaa5j.cloudfront.net
+d2ghscazvn398x.cloudfront.net
 d2gpgaupalra1d.cloudfront.net
 d2gtlljtkeiyzd.cloudfront.net
 d2gz6iop9uxobu.cloudfront.net
@@ -1137,6 +1148,7 @@ d38pxm3dmrdu6d.cloudfront.net
 d38r21vtgndgb1.cloudfront.net
 d39hdzmeufnl50.cloudfront.net
 d39xqloz8t5a6x.cloudfront.net
+d3ahinqqx1dy5v.cloudfront.net
 d3al52d8cojds7.cloudfront.net
 d3bvcf24wln03d.cloudfront.net
 d3dphmosjk9rot.cloudfront.net
@@ -1156,6 +1168,7 @@ d3pkae9owd2lcf.cloudfront.net
 d3q2dpprdsteo.cloudfront.net
 d3qk9u6c2k2cid.cloudfront.net
 d3qszud4qdthr8.cloudfront.net
+d3s6ctxr1rpcpt.cloudfront.net
 d3t2wca0ou3lqz.cloudfront.net
 d3t9ip55bsuxrf.cloudfront.net
 d3tdefw8pwfkbk.cloudfront.net
@@ -1545,6 +1558,7 @@ gg570.com
 gg86.pinggu.org
 ggcode.2345.com
 ggdoubi.com
+ggg.xiangjiao.xxx
 ggg.zj.com
 ggmm777.com
 ggw.gusuwang.com
@@ -1768,6 +1782,7 @@ innity.net
 insenz.com
 inskin.vo.llnwd.net
 instreet.cn
+int.anon-ib.co
 inte.sogou.com
 internerl.com
 ip.hivps.xyz
@@ -1783,7 +1798,6 @@ ivy.pconline.com.cn
 iwanad.baidu.com
 iwansf.com
 j.6avz.com
-j.ccnovel.com
 j.imdb.cn
 j1.piaobing.com
 ja.gamersky.com
@@ -1834,6 +1848,7 @@ jk939.com
 jkjjkj.top
 jkmxy.com
 jl027.com
+jlkja.com
 jlssbz.com
 jmsyzj.com
 jndczg.com
@@ -1856,6 +1871,7 @@ js.bju888.com
 js.bxwns.com
 js.bxwxtxt.com
 js.cncrk.com
+js.csai.cn
 js.duotegame.com
 js.hkslg520.com
 js.ubaike.cn
@@ -2086,6 +2102,7 @@ meooe.com
 mgwcn.com
 mgwl668.com
 miaozhen.com
+mid5in.top
 milk.7dapei.com
 milk.yesky.com.cn
 mingxianshanghang.cn
@@ -2198,6 +2215,7 @@ oikxlcv.wang
 ok.432kkk.com
 okkkk.com
 okm918.com
+okmgy.cn
 okokw.com
 olcdn.com
 olmvkq.cn
@@ -2561,6 +2579,7 @@ srv.thespacereporter.com
 ss.shicimingju.com
 sscefsol.com
 ssdaili.com
+ssgg.chazidian.com
 ssjpx.com
 ssjy168.com
 ssp.hinet.net
@@ -2609,6 +2628,7 @@ sycbbs.com
 syilm.net
 sykty.com
 symaa.cn
+symab.cn
 symae.cn
 synacast.com
 syndication.jsadapi.com
@@ -2648,6 +2668,7 @@ tbaocdn.com
 tbjfw.com
 tc600.com
 tcjy66.cc
+tcnmf.com
 tcss.qq.com
 tdayi.com
 tencentmind.com
@@ -2667,6 +2688,7 @@ tianqi777.com
 tianxiazhenji.com
 tianyanzs.com
 ticcdn.com
+tinglian.com
 tj.ali213.net
 tj.video.qq.com
 tjgxzs.com
@@ -2769,6 +2791,7 @@ vmjjzk.cn
 vnnv777.cn
 vsnoon.com
 vtale.org
+vu7r6.cn
 vuahb.com
 vupload.duowan.com
 vvnna.com
@@ -2879,6 +2902,7 @@ xa9t.com
 xabaitai.com
 xabmjr.com
 xacqp.com
+xberu.com
 xbtw.com
 xc.macd.cn
 xc.mydrivers.com
@@ -2902,6 +2926,7 @@ xhsxgmt.cn
 xhxnkyy.com
 xhydrs.cn
 xiacaidd.com
+xiangshiw.net
 xiaobiaoucai.cn
 xiaohei.com
 xiaoyang.mobi
@@ -3007,6 +3032,7 @@ yiranxian.cn
 yisloda.com
 yiwuds.com
 yixui.com
+yjkyj.cn
 yk0712.com
 ykbei.com
 ykjmy.com
@@ -3088,6 +3114,7 @@ zhichi08.com
 zhifenjie.com
 zhihei.com
 zhihu.xmcimg.com
+zhinengap.com
 zhiong.net
 zhiyuanteam.com
 zhjfad.com
@@ -3131,6 +3158,7 @@ zywhjd.com
 zzbaowen.com
 zzhszj.com
 zzimg.51.la
+zzjs.makepolo.net
 zzrcz.com
 zzsdjq.com
 zzsno1.com
