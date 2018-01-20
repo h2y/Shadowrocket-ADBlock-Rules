@@ -13,7 +13,8 @@ confs_names = [
     'sr_top500_whitelist',
     'sr_adb',
     'sr_direct_banad',
-    'sr_proxy_banad'
+    'sr_proxy_banad',
+    'sr_cnip', 'sr_cnip_ad'
 ]
 
 

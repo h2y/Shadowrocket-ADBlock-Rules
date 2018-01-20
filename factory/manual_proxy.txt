@@ -36,3 +36,19 @@ whatsapp.com
 whatsapp.net
 18.194.0.0/15
 34.224.0.0/12
+
+#54 台湾香港澳门 常用网站
+ptt.cc
+mingpaocanada.com
+mingpao.com
+appledaily.com
+appledaily.tw
+nextmag.com.tw
+thestandnews.com
+
+#60 GMail
+# 手机 smtp 和 imap 需要用到
+gmail.com
+
+#72 Google Voice
+74.125.23.127
