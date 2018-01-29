@@ -1,5 +1,8 @@
 # 手工定义的 Reject 列表
 
+#待反馈是否误杀
+ad.12306.cn
+
 #百度（可能有多余项）
 eclick.baidu.com
 entry.baidu.com
