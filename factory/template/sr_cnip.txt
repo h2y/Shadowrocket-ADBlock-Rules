@@ -4,6 +4,7 @@
 # 不包含广告过滤
 #
 
+DOMAIN-SUFFIX,.cn,DIRECT
 
 GEOIP,CN,DIRECT
 
