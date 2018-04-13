@@ -21,11 +21,16 @@
 [国内外划分](#国内外划分) | 无 | 国外所有 | 中国网站 | /
 [直连去广告](#直连去广告) | 是 | 无 | 全部 | /
 [代理去广告](#代理去广告) | 是 | 全部 | 无 | /
+[回国规则](#回国规则) | 无 | 中国网站 | 国外网站 | /
+[回国规则 + 广告](#回国规则--广告) | 是 | 中国网站 | 国外网站 | /
 
-- 以上所有规则，局域网内请求均直连。
 - 前两个规则是大多数人的选择。:+1: 
+- 以上所有规则，局域网内请求均直连。
 - 可以下载多个规则切换使用。
-- 请在 ShadowRocket 应用中点击扫描二维码的按钮添加规则。
+
+**使用方法**
+
+在 ShadowRocket 应用中，进入 [配置] 页面，点击扫描二维码的按钮添加规则。再激活添加的规则文件即可。
 
 
 ## 常见问题
@@ -57,9 +62,15 @@
 
 ## 相关推荐
 
+[**糖客**](http://tangke.party/register?aff=56) :100:
+
+我所选择的 SS 提供商，稳定、速度快、价格超便宜，还支持按流量计费。拥有回国节点，新用户免费试用 15 天。
+
+请大家使用我的推广链接前去注册。
+
 [**AppleDNS**](https://github.com/gongjianhui/AppleDNS)
 
-Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 DNS 最优解析结果，加快访问速度。
+Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 DNS 最优解析结果，可以轻微加快访问速度。
 
 电脑需安装 Python，按照 Readme 运行后，将生成的 hosts 粘贴到 `Shadowrocket->Settings->DNS->Hosts` 即可。
 
@@ -184,3 +195,29 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_proxy_banad.conf>
 
 ![qrcode 1](https://user-images.githubusercontent.com/12909077/33238510-5bd37174-d2ca-11e7-8614-e924908f0b6a.png)
+
+
+## 回国规则
+
+提供内海外华侨使用，可以回到墙内，享受国内的一些互联网服务。
+
+- 直连：国外网站
+- 代理：中国网站
+- 不包含广告过滤
+
+规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_backcn.conf>
+
+![default](https://user-images.githubusercontent.com/12909077/38732172-d9509d88-3f4f-11e8-851b-9d2443c3c703.png)
+
+
+## 回国规则 + 广告
+
+提供内海外华侨使用，可以回到墙内，享受国内的一些互联网服务。
+
+- 直连：国外网站
+- 代理：中国网站
+- 包含广告过滤
+
+规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_backcn_ad.conf>
+
+![1](https://user-images.githubusercontent.com/12909077/38732231-09f791da-3f50-11e8-81a7-c1f2f57c4ac7.png)
