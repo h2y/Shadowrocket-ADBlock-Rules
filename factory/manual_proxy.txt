@@ -1,5 +1,9 @@
 # 手工定义的 Proxy 列表
 
+theinitium.com
+
+youtu.be
+
 #Telegram
 67.198.55.0/24
 91.108.4.0/22
@@ -27,6 +31,9 @@ gist.github.com
 # 首页直连，但中文的维基百科必须翻墙
 wikipedia.org
 
+# 首页直连，但子域名需翻墙
+onedrive.live.com
+
 #20 开车
 t66y.com
 91porn.com
@@ -52,3 +59,15 @@ gmail.com
 
 #72 Google Voice
 74.125.23.127
+
+#85（可能冗余）
+yt3.ggpht.com
+www-google-analytics.l.google.com
+ssl-google-analytics.l.google.com
+partnerad.l.google.com
+pagead.l.google.com
+pagead.google.com
+pagead-tpc.l.google.com
+mobileads.google.com
+ads.google.com
+afd.l.google.com
