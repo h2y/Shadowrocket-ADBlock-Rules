@@ -122,7 +122,7 @@ print('top500 Script Starting...\n\n')
 # Start Thread
 UrlScaner().start()
 scaner_thread_num = 0
-for i in range(5):
+for i in range(3):
     DomainScaner().start()
     scaner_thread_num += 1
 
@@ -138,6 +138,8 @@ now_time = time.strftime("%Y-%m-%d %H:%M:%S")
 file_proxy.write('# top500 proxy list update time: ' + now_time + '\n')
 file_direct.write('# top500 direct list update time: ' + now_time + '\n')
 
+domains_direct = list( set(domains_direct) )
+domains_proxy  = list( set(domains_proxy) )
 domains_direct.sort()
 domains_proxy.sort()
 

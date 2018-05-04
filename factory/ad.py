@@ -74,8 +74,6 @@ for rule_url in rules_url:
 
 # write into files
 
-domains.sort()
-
 file_ad = sys.stdout
 try:
     if sys.version_info.major == 3:
@@ -87,9 +85,8 @@ except:
 
 file_ad.write('# adblock rules refresh time: ' + time.strftime("%Y-%m-%d %H:%M:%S") + '\n')
 
-last = ''
+domains = list( set(domains) )
+domains.sort()
+
 for item in domains:
-    if last == item:
-        continue
     file_ad.write(item + '\n')
-    last = item
