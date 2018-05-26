@@ -2,20 +2,23 @@
 
 这里是一系列好用的翻墙规则，针对 [Shadowrocket](https://liguangming.com/Shadowrocket) 开发，支持广告过滤，使用 Python 按照一定的规则和模板定期自动生成，并且使用开源的力量，集众人之力逐渐完善。
 
-**正在使用手机浏览本页面的用户 [请点击这里](https://github.com/h2y/Shadowrocket-ADBlock-Rules/blob/master/readme.md)，查看说明文档。**
+**正在使用手机浏览本页面的用户 [请点击这里](https://github.com/h2y/Shadowrocket-ADBlock-Rules/blob/master/readme.md)，查看完整的说明文档。**
 
 **本规则具有以下特点：**
 
 - 自动转换最新版本的 `EasyList, Eaylist China, 乘风规则` 为 SR 规则，全面去除广告且去除重复。
+- 黑名单完美转译最新版 GFWList；白名单针对全球 top500 的站点定期自动生成。
 - 也包括自定义的广告过滤规则，针对 iOS 端的网页广告、App 广告和视频广告。
 - 提供多个规则文件让大家自由选择或者自由切换使用。
 - 专门针对 ShadowRocket 开发，可以保证与 SR 的兼容性。
+
+## 规则列表
 
 ![规则选择指南](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/guide.png)
 
 规则 | 规定代理的网站 | 规定直连的网站 
 --- | ----------- | ------------- 
-[黑名单规则 + 去广告](#黑名单过滤--广告) |  top500 网站中不可直连的网站 | 其他网站 
+[黑名单规则 + 去广告](#黑名单过滤--广告) |  被墙的网站（GFWList） | 正常的网站 
 [黑名单规则](#黑名单过滤) |   |  
 [白名单规则 + 去广告](#白名单过滤--广告) | 其他网站 | top500 网站中可直连的网站、中国网站 
 [白名单规则](#白名单过滤) |   |  
@@ -33,6 +36,7 @@
 
 在 ShadowRocket 应用中，进入 [配置] 页面，点击扫描二维码的按钮添加规则。再激活添加的规则文件即可。
 
+最好让 ShadowRocket 断开并重新连接一次，以确保新的规则文件生效。 
 
 ## 常见问题
 
@@ -107,13 +111,13 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 黑名单中包含了境外网站中无法访问的那些，对不确定的网站则默认直连。
 
-- 代理：top500 网站中不可直连的境外网站
-- 直连：默认直连境外其余网站、中国网站
+- 代理：被墙的网站（GFWList）
+- 直连：正常的网站
 - 包含广告过滤
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf>
 
-![](https://user-images.githubusercontent.com/12909077/27505548-db67b776-58d4-11e7-8775-ff038c8c11bf.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_top500_banlist_ad.png)
 
 ## 白名单过滤 + 广告
 
@@ -125,20 +129,20 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist_ad.conf>
 
-![](https://user-images.githubusercontent.com/12909077/27505553-ef1b86c6-58d4-11e7-9fb1-eafbd0c5dc81.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_top500_whitelist_ad.png)
 
 
 ## 黑名单过滤
 
 现在很多浏览器都自带了广告过滤功能，而广告过滤的规则其实较为臃肿，如果你不需要全局地过滤 App 内置广告和视频广告，可以选择这个不带广告过滤的版本。
 
-- 代理：top500 网站中不可直连的境外网站
-- 直连：默认直连境外其余网站、中国网站
+- 代理：被墙的网站（GFWList）
+- 直连：正常的网站
 - 不包含广告过滤
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist.conf>
 
-![](https://user-images.githubusercontent.com/12909077/28882175-0b25a244-77dd-11e7-8939-e9024f74f723.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_top500_banlist.png)
 
 
 ## 白名单过滤
@@ -151,7 +155,7 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist.conf>
 
-![](https://user-images.githubusercontent.com/12909077/27505552-ef108226-58d4-11e7-82eb-8558289d3953.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_top500_whitelist.png)
 
 
 ## 国内外划分 + 广告
@@ -160,7 +164,7 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_cnip_ad.conf>
 
-![qrcode](https://user-images.githubusercontent.com/12909077/35178930-22161424-fdcb-11e7-8c4f-ae85d0b6ed93.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_cnip_ad.png)
 
 
 ## 国内外划分
@@ -169,7 +173,7 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_cnip.conf>
 
-![qrcode](https://user-images.githubusercontent.com/12909077/35178931-22627c24-fdcb-11e7-8d99-d5cc5f529d30.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_cnip.png)
 
 
 ## 直连去广告
@@ -181,7 +185,7 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf>
 
-![qrcode](https://user-images.githubusercontent.com/12909077/33238511-5c08a268-d2ca-11e7-9e57-061050a88021.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_direct_banad.png)
 
 
 ## 代理去广告
@@ -194,7 +198,7 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_proxy_banad.conf>
 
-![qrcode 1](https://user-images.githubusercontent.com/12909077/33238510-5bd37174-d2ca-11e7-8614-e924908f0b6a.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_proxy_banad.png)
 
 
 ## 回国规则
@@ -207,7 +211,7 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_backcn.conf>
 
-![default](https://user-images.githubusercontent.com/12909077/38732172-d9509d88-3f4f-11e8-851b-9d2443c3c703.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_backcn.png)
 
 
 ## 回国规则 + 广告
@@ -220,4 +224,4 @@ Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 
 
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_backcn_ad.conf>
 
-![1](https://user-images.githubusercontent.com/12909077/38732231-09f791da-3f50-11e8-81a7-c1f2f57c4ac7.png)
+![二维码](https://cdn.rawgit.com/h2y/Shadowrocket-ADBlock-Rules/master/figure/sr_backcn_ad.png)
