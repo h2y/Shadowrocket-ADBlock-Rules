@@ -24,6 +24,10 @@
 
 列表，手动编写。记录需要屏蔽的域名或 IP。
 
+**manual_gfwlist.txt**
+
+GFWList 不能无损转换为 SR 规则，所以这里是对 GFWList 的补充。
+
 
 ## 代码及自动生成的文件
 
@@ -51,3 +55,18 @@
 
 脚本，从指定的 Adblock Rule 中提取广告服务器的域名和 IP 至 `ad.list` 文件。
 
+-----------------------------------
+
+**resultant/gfw.list**
+
+域名列表，由 `gfwlist.py` 自动生成。包含 GFWList 所定义的需要走代理的网站。
+
+**resultant/gfw_unhandle.log**
+
+运行日志，由 `gfwlist.py` 自动生成。GFWList 不能无损转换为 SR 规则，这里记录着未能转换的 GFWList 规则。
+
+每当该文件发生变化，需要对应修改 `manual_gfwlist.txt` 文件。
+
+**gfwlist.py**
+
+脚本。解译最新版本的 GFWList。
