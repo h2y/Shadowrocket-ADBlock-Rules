@@ -1,0 +1,26 @@
+# GFWList 不能无损转换为 SR 规则，所以这里是对 GFWList 的补充
+
+i-scmp.com
+search.xxx
+50.7.31.230
+bbc.com
+blogspot
+google
+akamaihd.net
+azurewebsites.net
+# /twimg\.edgesuite\.net\/\/?appledaily
+4sqi.net
+# hkheadline.com*blog
+news.now.com
+picturedip.com
+# bbs.sina.com%2F
+# dailynews.sina.com%2F
+uchicago.edu
+xda-developers.com
+# google.*/falun
+phobos
+# q=freedom
+# q%3Dfreedom
+# search*safeweb
+# q=triangle
+# q%3DTriangle

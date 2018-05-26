@@ -1,19 +1,12 @@
 #
-# 黑名单中包含了境外网站中无法访问的那些，对不确定的网站则尽可能地直连。
-#
-# 代理：top500 网站中不可直连的境外网站
-# 直连：默认直连境外其余网站、中国网站
+# 黑名单中包含了 GFWList 中定义的无法访问的网站，剩下的网站直连。
 # 包含广告过滤
 #
 
 
 {{manual_reject}}
-{{manual_proxy}}
-{{manual_direct}}
 
 {{ad}}
-{{top500_proxy}}
-
-DOMAIN-KEYWORD,google,Proxy
+{{gfwlist}}
 
 FINAL,direct
