@@ -4,6 +4,8 @@
 # 提取广告规则，并且只提取对全域禁止的那种规则
 #
 
+# 参考 ADB 广告规则格式：https://adblockplus.org/filters
+
 import time
 import sys
 import requests
@@ -18,6 +20,8 @@ rules_url = [
     # 乘风 广告过滤规则
     'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt'
 ]
+
+rule = ''
 
 # contain both domains and ips
 domains = []
@@ -42,34 +46,54 @@ for rule_url in rules_url:
     if not success:
         sys.exit('error in request %s\n\treturn code: %d' % (rule_url, r.status_code) )
 
-    rule = r.text
+    rule = rule + r.text + '\n'
 
-    # parse rule
-    rule = rule.split('\n')
-    for row in rule:
-        row = row.strip()
 
-        # 直接跳过
-        if row.startswith('!') or row.startswith('@@') or "$" in row:
-            continue
+# parse rule
+rule = rule.split('\n')
+for row in rule:
+    row = row.strip()
+    row0 = row
 
-        # 清除前缀
-        row = re.sub(r'^\|?https?:\/\/', '', row)
-        row = re.sub(r'^\|\|', '', row)
-        row = row.lstrip('.*')
+    # 处理广告例外规则
 
-        # 清除后缀
-        row = row.rstrip('/^*')
+    if row.startswith('@@'):
+        i = 0
+        while i < len(domains):
+            domain = domains[i]
+            if domain in row:
+                del domains[i]
+            else:
+                i = i + 1
 
-        # 不能含有的字符
-        if re.search(r'[\/\^:\*]', row):
-            continue
+        continue
 
-        # 只匹配域名或 IP
-        if re.match(r'^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,9}$', row) or re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', row):
-            domains.append(row)
 
-    print('done.')
+    # 处理广告黑名单规则
+
+    # 直接跳过
+    if row=='' or row.startswith('!') or "$" in row or "##" in row:
+        continue
+
+    # 清除前缀
+    row = re.sub(r'^\|?https?://', '', row)
+    row = re.sub(r'^\|\|', '', row)
+    row = row.lstrip('.*')
+
+    # 清除后缀
+    row = row.rstrip('/^*')
+    row = re.sub(r':\d{2,5}$', '', row)  # 清除端口
+
+    # 不能含有的字符
+    if re.search(r'[/^:*]', row):
+        print('ignore: '+row0)
+        continue
+
+    # 只匹配域名或 IP
+    if re.match(r'^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,9}$', row) or re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', row):
+        domains.append(row)
+
+print('done.')
 
 
 # write into files
