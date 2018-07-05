@@ -168,3 +168,35 @@ msga.cupid.iqiyi.com
 27.221.89.128/28
 60.211.171.128/29
 60.211.211.1/32
+
+#99 提交的公告 未测试是否误杀
+#以下为杭州公交 APP 的广告调用地址，含京东广告
+im-x.jd.com
+ad.ipadview.com
+#以下为某些不可描述网站加载的乱七八糟广告
+sfd.maizhenai.cn
+cl21iq.paomifen.cn
+ll.songlaoban.cn
+img.09mk.cn
+hepengshan.cn
+pp.images.harmony.epsilon.com
+gum.criteo.com
+www.storygize.net
+pxl.connexity.net
+i.liadm.com
+aa.agkn.com
+load77.exelator.com
+stags.bluekai.com
+d.agkn.com
+sds.amaoshe.cn
+dd.yeshoutuan.cn
+h.muxq8.cn
+ls.huanshawang.cn
+e.v85968.cn
+co.dingyuanyao.cn
+dd.ythongsheng.cn
+lolo.viwuue.cn
+bp.xkhejx.cn
+#以下为广告联盟
+taboola.com
+trc.taboola.com
