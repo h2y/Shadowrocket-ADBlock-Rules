@@ -17,9 +17,6 @@ youtu.be
 149.154.168.0/22
 149.154.172.0/22
 
-#28 for http://www.bbc.com/zhongwen/simp
-bbc.com
-
 #instagram
 cdninstagram.com
 
