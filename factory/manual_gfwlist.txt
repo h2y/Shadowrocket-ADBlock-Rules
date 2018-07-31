@@ -3,7 +3,6 @@
 i-scmp.com
 search.xxx
 50.7.31.230
-bbc.com
 blogspot
 google
 akamaihd.net
@@ -38,3 +37,6 @@ phobos
 149.154.164.0/22
 149.154.168.0/22
 149.154.172.0/22
+
+# 修复 google voice #112
+74.125.23.127
