@@ -99,10 +99,10 @@ class DomainScaner(threading.Thread):
             is_proxy = False
 
             try:
-                requests.get('http://' + domain, timeout=10, headers=requests_header)
+                requests.get('http://www.' + domain, timeout=10, headers=requests_header)
             except BaseException:
                 try:
-                    requests.get('http://www.' + domain, timeout=10, headers=requests_header)
+                    requests.get('http://' + domain, timeout=10, headers=requests_header)
                 except BaseException:
                     is_proxy = True
 
