@@ -35,7 +35,7 @@ onedrive.live.com
 t66y.com
 91porn.com
 
-#50 for whatsapp
+#50 whatsapp
 whatsapp.com
 whatsapp.net
 18.194.0.0/15
@@ -54,8 +54,8 @@ thestandnews.com
 # 手机 smtp 和 imap 需要用到
 gmail.com
 
-#72 Google Voice
-74.125.23.127
+#72 #112 Google Voice
+74.125.0.0/16
 
 #85（可能冗余）
 yt3.ggpht.com
