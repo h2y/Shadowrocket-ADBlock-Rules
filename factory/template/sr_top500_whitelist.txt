@@ -6,19 +6,18 @@
 # 不包含广告过滤
 #
 
-
-{{manual_proxy}}
-{{manual_direct}}
-
 {{top500_direct}}
 
 DOMAIN-SUFFIX,cn,DIRECT
+GEOIP,CN,DIRECT
+
+{{manual_direct}}
 
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
 
-GEOIP,CN,DIRECT
+{{manual_proxy}}
 
-FINAL,proxy
+FINAL,PROXY
