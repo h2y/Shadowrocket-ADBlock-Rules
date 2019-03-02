@@ -64,7 +64,7 @@
 
 ## 相关推荐
 
-[**糖客**](http://tangke.party/register?aff=56) :100:
+[**糖客**](http://tangke.space/register?aff=56) :100:
 
 我所选择的 SS 提供商，稳定、速度快、价格超便宜，还支持按流量计费。拥有回国节点，新用户免费试用 15 天。
 
