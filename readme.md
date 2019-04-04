@@ -64,12 +64,6 @@
 
 ## 相关推荐
 
-[**糖客**](http://tangke.space/register?aff=56) :100:
-
-我所选择的 SS 提供商，稳定、速度快、价格超便宜，还支持按流量计费。拥有回国节点，新用户免费试用 15 天。
-
-请大家使用我的推广链接前去注册。
-
 [**AppleDNS**](https://github.com/gongjianhui/AppleDNS)
 
 Hosts 生成工具，生成 `在当前所在网络环境下` Apple 服务器的 DNS 最优解析结果，可以轻微加快访问速度。
