@@ -14,7 +14,7 @@
 
 ## 规则列表
 
-![规则选择指南](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/guide.png)
+[![规则选择指南](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/guide.png?1947)](https://gecko.website/register?aff=209)
 
 规则 | 规定代理的网站 | 规定直连的网站 
 --- | ----------- | ------------- 
@@ -63,6 +63,13 @@
 
 
 ## 相关推荐
+
+[**壁虎翻墙网 :100:**](https://gecko.website/register?aff=209)
+
+这是我所选择的服务器提供商，稳定、速度快、价格便宜，新用户可以在半个月内免费试用 3GB 流量。	
+
+欢迎大家使用我的推广链接前去注册。
+
 
 [**AppleDNS**](https://github.com/gongjianhui/AppleDNS)
 
