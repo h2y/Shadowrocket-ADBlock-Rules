@@ -4,7 +4,7 @@
 # 不包含广告过滤
 #
 
-DOMAIN-SUFFIX,.cn,proxy
+DOMAIN-SUFFIX,cn,proxy
 
 GEOIP,CN,proxy
 
