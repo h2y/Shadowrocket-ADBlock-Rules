@@ -14,7 +14,7 @@
 
 ## 规则列表
 
-![规则选择指南](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/guide.png?1985)]
+![规则选择指南](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/guide.png?1985)
 
 规则 | 规定代理的网站 | 规定直连的网站 
 --- | ----------- | ------------- 
