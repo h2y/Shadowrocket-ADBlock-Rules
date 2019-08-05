@@ -82,3 +82,16 @@ dowjones.com
 
 #159
 thetvdb.com
+
+#180 OneDrive（可能冗余）
+bcbits.com
+ogma.iad.appboy.com
+odc.officeapps.live.com
+skyapi.live.net
+centralus1.mediap.svc.ms
+dm.files.1drv.com
+mobile.pipe.aria.microsoft.com
+gate.hockeyapp.net
+skyapi.live.net
+api.onedrive.com
+vortex.data.microsoft.com
