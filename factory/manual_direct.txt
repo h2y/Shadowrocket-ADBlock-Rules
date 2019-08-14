@@ -5,3 +5,13 @@ icloud-content.com
 api.cloudmobi.net
 hotmail.com
 
+#学术网站
+researchgate.net
+springer.com
+blackwell-synergy.com
+sciencemag.org
+jstor.org
+cabdirect.org
+ieee.org
+nature.com
+osapublishing.org
