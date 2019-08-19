@@ -40,3 +40,6 @@ phobos
 
 # 修复 google voice #112
 74.125.23.127
+
+# hacker news web site
+news.ycombinator.com
