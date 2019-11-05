@@ -34,7 +34,6 @@ api.instabug.com
 adlog.flurry.com
 ads.flurry.com
 sd.domob.cn
-ic.snssdk.com
 adjust.com
 adjust.io
 beacon.tingyun.com
@@ -205,3 +204,8 @@ xdcs-collector.ximalaya.com
 #广告联盟
 .inmobi.cn
 .criteo.com
+
+#169
+adx.hupu.com
+kikibt8.com
+kikibt8.xyz

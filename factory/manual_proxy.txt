@@ -30,9 +30,6 @@ disquscdn.com
 
 gist.github.com
 
-# 首页直连，但中文的维基百科必须翻墙
-wikipedia.org
-
 # 首页直连，但子域名需翻墙
 onedrive.live.com
 
@@ -95,3 +92,25 @@ gate.hockeyapp.net
 skyapi.live.net
 api.onedrive.com
 vortex.data.microsoft.com
+
+#183
+mendeley.com
+
+#192 播客收听应用程序 overcast
+overcast.fm
+
+#205 APPLE NEWS
+news-events.apple.com
+news-edge.apple.com
+apple.comscoreresearch.com
+play.itunes.apple.com
+play-cdn.itunes-apple.com.akadns.net
+ls.apple.com
+cvws.apple-dns.net
+news.apple-dns.net
+gateway.fe.apple-dns.net
+akamaiedge.net
+gs-loc.apple.com
+bag.itunes.apple.com
+apple.news
+news.iadsdk.apple.com
