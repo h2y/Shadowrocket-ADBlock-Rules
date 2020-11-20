@@ -59,7 +59,7 @@
 
 ## 一些推荐的网站
 
-[**功夫翻墙网**](https://cutt.ly/tizi)	:lollipop:
+[**糖客翻墙网**](https://cutt.ly/hhw1ZTi)	:lollipop:
 
 我最终选择的节点提供商。稳定、价格适中。节点遍布全球，其中香港节点的速度令人满意。
 
