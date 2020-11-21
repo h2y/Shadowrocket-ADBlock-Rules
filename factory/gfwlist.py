@@ -12,7 +12,7 @@ import re
 import base64
 
 
-rules_url = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
+rules_url = 'https://raw.githubusercontent.com/v2fly/domain-list-community/release/gfwlist.txt'
 
 unhandle_rules = []
 
